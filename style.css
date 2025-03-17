@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 * {
     padding: 0;
     margin:0;
@@ -18,4 +19,54 @@ body{
 .presentacion {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 100vh;
+    font-size: 50px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+}
+.nombre-portafolio{
+    font-size: 37px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color: #a522fd;
+}
+.sintaxis{
+    font-size: 24px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color: rgba(110, 219, 0, 0.801);
+}
+.parrafo-destaque{
+    font-size: 24px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+.parrafo-contacto{
+    font-size: 32px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color: #22D4FD;
+}
+.boton-Linkedin{
+    background-color: #b7b8b9;
+    font-size: 24px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    border: 3px dotted #1320d1; 
+    padding: 20px; 
+}
+
+.boton-Github{
+    background-color: #b7b8b9;
+    font-size: 24px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    border-radius: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    border: 3px dotted #1320d1; 
+    padding: 20px; 
 }
