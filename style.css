@@ -45,28 +45,27 @@ body{
     font-family: "Big Shoulders Stencil", sans-serif;
     color: #22D4FD;
 }
-.boton-Linkedin{
-    background-color: #b7b8b9;
+.botones-contacto{
+    display:flex;
+    justify-content: space-between;
     font-size: 24px;
     font-family: "Big Shoulders Stencil", sans-serif;
-    border-radius: 10px;
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    border: 3px dotted #1320d1; 
-    padding: 20px; 
 }
 
-.boton-Github{
-    background-color: #b7b8b9;
-    font-size: 24px;
-    font-family: "Big Shoulders Stencil", sans-serif;
-    border-radius: 10px;
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    border: 3px dotted #1320d1; 
-    padding: 20px; 
+.boton-LinkeIn{
+    width: 280px;
+    background-color: #0A66C2;
+    text-align: center;
+    padding: 28px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.boton-Github:{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 28px 00px;
+    border-radius: 5px;
+    cursor: pointer;
 }
