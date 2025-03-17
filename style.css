@@ -37,11 +37,12 @@ body{
     color: rgba(110, 219, 0, 0.801);
 }
 .parrafo-destaque{
-    font-size: 24px;
+    font-size: 32px;
     font-family: "Big Shoulders Stencil", sans-serif;
 }
 .parrafo-contacto{
-    font-size: 32px;
+    text-align: center;
+    font-size: 62px;
     font-family: "Big Shoulders Stencil", sans-serif;
     color: #22D4FD;
 }
@@ -52,20 +53,34 @@ body{
     font-family: "Big Shoulders Stencil", sans-serif;
 }
 
-.boton-LinkeIn{
+.boton-Linkedin{
     width: 280px;
     background-color: #0A66C2;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
     text-align: center;
     padding: 28px 0px;
-    border-radius: 5px;
+    border-radius: 70px;
+    border: dotted 2px #ffffff;
     cursor: pointer;
 
 }
 
-.boton-Github:{
+.boton-Github{
+    width: 280px;
     background-color: #ffffff;
+    font-size: 50px;
+    color: #000000;
     text-align: center;
+    text-decoration: none;
     padding: 28px 00px;
-    border-radius: 5px;
+    border-radius: 70px;
+    border: dotted 2px #8d099e;
     cursor: pointer;
+}
+.foto-perfil{
+    border: dotted 2px #038819;
+    border-radius: 50%;
+    width: 500px;
 }
