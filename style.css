@@ -15,10 +15,9 @@
     width: 5%;
 }
 .barra-navegacion{
-    display: flex;
-    flex-direction:row;
-    align-items: left;
-    gap: 20px;
+padding: 2% 0% 0% 15%;
+display: flex;
+gap: 80px;
 }
 .barra-navegacion:hover{
     cursor: pointer;
