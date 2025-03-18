@@ -11,6 +11,16 @@ body{
     color: #F6F6F6;
 }
 
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    text-decoration: none;
+}
 
 .titulo-destaque {
     color: #22D4FD; ;
