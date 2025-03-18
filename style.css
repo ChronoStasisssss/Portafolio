@@ -10,8 +10,16 @@
 .logo-inicio{
     width: 5%;
 }
-.logo-inicio:hover{
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: left;
+    gap: 20px;
+}
+.barra-navegacion:hover{
     cursor: pointer;
+    
 }
 body{
     height: 100vh;
