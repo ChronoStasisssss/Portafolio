@@ -10,6 +10,9 @@
 .logo-inicio{
     width: 5%;
 }
+.logo-inicio:hover{
+    cursor: pointer;
+}
 body{
     height: 100vh;
     box-sizing: border-box;
