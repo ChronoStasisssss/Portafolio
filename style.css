@@ -3,6 +3,10 @@
     padding: 0;
     margin:0;
 }
+.titulo{
+    text-decoration: dashed;
+    text-align: center;
+}
 .titulo-pagina{
     display: flex;
     align-content: center;
@@ -12,7 +16,6 @@
 }
 .barra-navegacion{
     display: flex;
-    justify-content: space-between;
     flex-direction:row;
     align-items: left;
     gap: 20px;
