@@ -53,18 +53,11 @@ body{
     background-color: #000000;
     color: #F6F6F6;
 }
-/* PARRAFO CENTRAL*/
-.presentacion{
-    width:100%;
-    @media(max-width: 50%){
-        
-    }
-}
-
 .titulo-destaque {
     color: #22D4FD; ;
 }
 
+/* PARRAFO CENTRAL*/
 .presentacion {
     display: flex;
     align-items: center;
@@ -73,6 +66,9 @@ body{
     height: 100vh;
     font-size: 50px;
     font-family: "Big Shoulders Stencil", sans-serif;
+    width:100%;
+    @media(max-width: 50%){
+    }    
 
 }
 .nombre-portafolio{
