@@ -12,12 +12,16 @@
     align-content: center;
 }
 /* AQUI EMPIEZA LA BARRA DE NAVEGACION*/
-@media (max-width: 500px) {
 .logo-inicio{
-    width: 9px;
+    width: 10%;
     display: flex;
-    justify-content: flex-start;
-    align-items:;
+    justify-content:flex-start;
+}
+.vinculos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
 }
 .nav {
     position: absolute;
@@ -27,7 +31,7 @@
     width: 100%;
     margin: 0 auto;
     font-size: 32px;
-    justify-content: center;
+    justify-content:space-between;
   }
   .nav ul {
     margin: 0;
@@ -46,7 +50,7 @@
     color: #FFF;
     text-align: center;
   }
-}
+
 /*Aqui termina el codigo de Nav bar*/
 
 body{
@@ -100,6 +104,7 @@ body{
     font-family: "Big Shoulders Stencil", sans-serif;
 }
 
+/* BOTONES DE CONTACTO*/
 .boton-Linkedin{
     width: 280px;
     background-color: #0A66C2;
@@ -112,6 +117,16 @@ body{
     border: dotted 2px #ffffff;
     cursor: pointer;
 
+}
+.boton-Linkedin:hover{
+    font-size: 2em;
+    color: #f434a7;
+    opacity: 0; /* Iniciar como invisible */
+    transform: translateX(-100%); /* Comenzar fuera de la vista */
+    animation:infinite 1s ease-in-out forwards; /* Aplicar la animación */
+    animation-name: aparecer;
+    animation-delay: 1s;
+    cursor: pointer;
 }
 
 .boton-Github{
@@ -130,4 +145,11 @@ body{
     border: dotted 2px #038819;
     border-radius: 50%;
     width: 500px;
+}
+.foto-perfil:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+@media (max-width: 1000px) {
+
 }
