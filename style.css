@@ -1,3 +1,4 @@
+@media (max-width: 640px) {
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 * {
     padding: 0;
@@ -12,7 +13,6 @@
     align-content: center;
 }
 /* AQUI EMPIEZA LA BARRA DE NAVEGACION*/
-@media (max-width: 640px) {
 .logo-inicio{
     width: 10%;
     display: flex;
